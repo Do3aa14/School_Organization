@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolOrganization.DataLayer.Contract\SchoolOrganization.DataLayer.Contract.csproj" />
+    <ProjectReference Include="..\SchoolOrganization.Domain\SchoolOrganization.Domain.csproj" />
+    <ProjectReference Include="..\SchoolOrganization.ServiceLayer.Contract\SchoolOrganization.ServiceLayer.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
